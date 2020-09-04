@@ -20,6 +20,9 @@ namespace MainAppCEPS
 
       CEPSModules1.Class1 cls1 = new CEPSModules1.Class1();
       cls1.RunTests();
+
+      int i = 1;
+      i += 1;
     }
   }
 }
