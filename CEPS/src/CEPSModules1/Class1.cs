@@ -10,7 +10,8 @@ namespace CEPSModules1
   {
     public void RunTests()
     {
-
+      int i = 1;
+      i += 2;
     }
   }
 }
