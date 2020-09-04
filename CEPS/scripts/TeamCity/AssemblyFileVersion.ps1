@@ -1,6 +1,6 @@
 # Get AssemblyInfo file's contents
 # $file = "..\..\src\MainAppCEPS\Properties\AssemblyInfo.cs"
-$file = "src\MainAppCEPS\Properties\AssemblyInfo.cs"
+$file = "CEPS\src\MainAppCEPS\Properties\AssemblyInfo.cs"
 $contents = get-content $file -Raw
 
 # Regex to get the version number from AssemblyInfo file contents
