@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>2ab6f33b-d113-42b7-8ddc-bccb3531a691</ProjectGuid>
+    <ProjectGuid>{2AB6F33B-D113-42B7-8DDC-BCCB3531A691}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CEPSModules1</RootNamespace>
@@ -14,7 +14,7 @@
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup>
-      <DisableOutOfProcTaskHost>true</DisableOutOfProcTaskHost>
+    <DisableOutOfProcTaskHost>true</DisableOutOfProcTaskHost>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -24,6 +24,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -34,24 +35,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    
-    
-    <Reference Include="Microsoft.CSharp"/>
-    
-    <Reference Include="System.Data"/>
-    
-    <Reference Include="System.Net.Http"/>
-    
-    <Reference Include="System.Xml"/>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
- </Project>
+</Project>
