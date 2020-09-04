@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1231
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainAppCEPS", "MainAppCEPS.csproj", "{8142C1C3-CD64-4C61-8E25-96B10B985C42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CEPSModules1", "..\CEPSModules1\CEPSModules1.csproj", "{2AB6F33B-D113-42B7-8DDC-BCCB3531A691}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8142C1C3-CD64-4C61-8E25-96B10B985C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8142C1C3-CD64-4C61-8E25-96B10B985C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8142C1C3-CD64-4C61-8E25-96B10B985C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8142C1C3-CD64-4C61-8E25-96B10B985C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AB6F33B-D113-42B7-8DDC-BCCB3531A691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB6F33B-D113-42B7-8DDC-BCCB3531A691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB6F33B-D113-42B7-8DDC-BCCB3531A691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB6F33B-D113-42B7-8DDC-BCCB3531A691}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99902937-FD09-49BC-92AF-89006CB6BDF9}
+	EndGlobalSection
+EndGlobal
