@@ -22,7 +22,7 @@ namespace MainAppCEPS
       cls1.RunTests();
 
       int i = 1;
-      i += 29;
+      i += 30;
     }
   }
 }
