@@ -4,20 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8142C1C3-CD64-4C61-8E25-96B10B985C42}</ProjectGuid>
+    <ProjectGuid>{C84114E1-DF87-4BF1-B7A4-9FCE815A37BA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>MainAppCEPS</RootNamespace>
-    <AssemblyName>MainAppCEPS</AssemblyName>
+    <RootNamespace>AppClientCEPS</RootNamespace>
+    <AssemblyName>AppClientCEPS</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
-  <PropertyGroup>
-    <DisableOutOfProcTaskHost>true</DisableOutOfProcTaskHost>
-  </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>

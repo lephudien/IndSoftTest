@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EnvironmentConfig>
+  <TimeZones>
+		<TimeZone Name="CET" Path="encal.CZ.ini" ShortCaption="SEČ" Caption="Středoevropský čas"/>
+		<TimeZone Name="CEST" Path="encal.CZ.ini" ShortCaption="SELČ" Caption="Středoevropský letní čas"/>
+	</TimeZones>
+  <EnCals>
+    <EnCal Name="CZ" Path="encal.CZ.ini" ShortCaption="CZ" Caption="Energetický kalendář pro české luhy a háje."/>
+  </EnCals>
+  <Samples>
+    <Sample Name="Const" ShortCaption="Konst" Caption="Sample nekonečné délky." Visible="true"/>
+  </Samples>
+  <CatClasses>
+    <Class ProgId="Enif.Category.CEnifCatLibrarySim,EnifData">
+      <Params>
+        <Param Name="GuiInfos">
+          <Param Name="PoPaSoNE">
+            <Param Name="Visible">false</Param>
+            <Param Name="Caption">PoPaSoNE</Param>
+            <Param Name="ShortCaption">PPSN</Param>
+            <Param Name="Desc">PoPaSoNE</Param>
+          </Param>
+        </Param>
+      </Params>
+    </Class>
+  </CatClasses>
+  <Units>
+    <UnitDefinitions>
+      <Unit Name="m" Caption="metr" Group="distance"/>
+      <Unit Name="km" Caption="kilometr" Group="distance"/>
+
+      <Unit Name="m^3" Group="volume"/>
+      <Unit Name="km^3" Group="volume"/>
+
+      <Unit Name="J" Group="energy"/>
+      <Unit Name="GJ" Group="energy"/>
+
+      <Unit Name="CZK" Caption="Koruny české"/>
+    </UnitDefinitions>
+    <GroupDefinitions>
+      <Group Name="distance" ProgId="Enif.Data.CUnitConverterByPrefix,Enif" BaseUnit="m"/>
+      <Group Name="volume" ProgId="Enif.Data.CUnitConverterByPrefix,Enif" BaseUnit="m^3">
+        <Params>
+          <Param Name="Exponent">3</Param>
+        </Params>
+      </Group>
+      <Group Name="energy" ProgId="Enif.Data.CUnitConverterByPrefix,Enif" BaseUnit="J"/>
+    </GroupDefinitions>
+    <GroupToGroupConverters>
+      <GroupToGroupConverter Name="Test" ProgId="Enif.Data.CUnitConverterTest,Enif">
+        <GroupName>volume</GroupName>
+        <GroupName>energy</GroupName>
+        <GroupName>CZK</GroupName>
+        <Params></Params>
+      </GroupToGroupConverter>
+    </GroupToGroupConverters>
+  </Units>
+</EnvironmentConfig>

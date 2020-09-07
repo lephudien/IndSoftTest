@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<configuration>
+  <appSettings>
+
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *  * * * * * * * * * * * * * ** * * * * * -->
+
+    <!-- * * * * * * * * * * * * * * * * * -->
+    <!--  Obecné nastavení pro Instalátor  -->
+    <!-- * * * * * * * * * * * * * * * * * -->
+
+    <!-- Sql*Plus ConnectionString do Enif databáze ve tvaru <username>/<password>@<tnsname> -->
+    <add key="SqlPlusConnectionString" value="" />
+
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+
+
+    <add key="KlientMachineMachineSettingDeneb2ClientServerAdress" value=""/>
+    <add key="DenebClientInstallPath" value="" />
+    
+
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+    <!-- Parametry pro instalaci Lancelot Serveru (AppServer)  -->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+    <add key="AppServerInstallPath" value="" />
+
+    <add key="ServerApplicationConfigCLogAllFolder" value=""/>
+    <add key="ServerApplicationConfigCLogWarningFolder" value=""/>
+    <add key="ServerApplicationConfigLogDisposingProxyAtSink" value=""/>
+
+    <add key="ServerEnifConfigListeningAddress" value="" />
+    <add key="ServerEnifConfigCopyAdapterConnectionSettingsAddress" value=""/>
+    <add key="ServerEnifConfigOmSumTddIntervalSec" value=""/>
+    <add key="ServerEnifConfigOmSumTddStartAt" value=""/>
+    <add key="ServerEnifConfigImportOMConsFrom" value=""/>
+    <add key="ServerEnifConfigEntityCoreMainEnifConnectionString" value=""/>
+    <add key="ServerEnifConfigEntityCoreMainEnifDefaultSchema" value=""/>
+    <add key="ServerEnifConfigEntityCoreMainNPSConnectionString" value=""/>
+    <add key="ServerEnifConfigEntityCoreMainNPSDefaultSchema" value=""/>
+
+    <add key="ServerEnifConfigCANotifyFilterView" value="" />
+    <add key="ServerEnifConfigCANotifyFilterData" value="" />
+    <add key="ServerEnifConfigAddMYCopiesF35708" value="" />
+    <add key="ServerEnifConfigAddMYCopiesF35445" value="" />
+    <add key="ServerEnifConfigEntityCoreMainDefaultSessionImplementorType" value=""/>
+
+    <add key="ServerDeneb2ServiceExeDBName" value=""/>
+    <add key="ServerDeneb2ServiceExeDBLogin" value=""/>
+    <add key="ServerDeneb2ServiceExeLogFile" value=""/>
+    <add key="ServerDeneb2ServiceExeLogClients" value=""/>
+    <add key="ServerDeneb2ServiceExeHromAdmin" value=""/>
+    <add key="ServerDeneb2ServiceExeMaxAdminUsers" value=""/>
+    <add key="ServerDeneb2ServiceExeRootFolderCaption" value=""/>
+    <add key="ServerDeneb2ServiceExeMaxConnectionsPerUser" value=""/>
+    <add key="ServerDeneb2ServiceExeNotifyQueueSizeLimit" value=""/>
+    <add key="ServerDeneb2ServiceExeNotifyQueueLoadFileCount" value=""/>
+    <add key="ServerDeneb2ServiceExePasswordPolicyEnabled" value=""/>
+    <add key="ServerDeneb2ServiceExeTreeBckgColor" value=""/>
+    <add key="ServerDeneb2ServiceExeTreeBckgColorAllUsers" value=""/>
+    <add key="ServerDeneb2ServiceExeLogErrorsToDB" value=""/>
+
+    <add key="ServerWatchDogDeneb2DiskSpaceCheckIgnore" value="" />
+    <add key="ServerWatchDogDeneb2MailSubject" value="" />
+    <add key="ServerWatchDogDeneb2SendLogMailSubject" value="" />
+    <add key="ServerWatchDogDeneb2StartCheckTimeOut" value="" />
+    <add key="ServerWatchDogDeneb2StartCheckFinalTimeOut" value="" />
+    <add key="ServerWatchDogDeneb2StopCheckTimeOut" value="" />
+    <add key="ServerWatchDogDeneb2OutageBegin" value="" />
+    <add key="ServerWatchDogDeneb2OutageEnd" value="" />
+    <add key="ServerWatchDogDeneb2DiskSpaceLimit_C" value="" />
+    <add key="ServerWatchDogDeneb2DiskSpaceLimit_K" value="" />
+    <add key="ServerWatchDogDeneb2DiskSpaceLimit_P" value="" />
+    <add key="ServerWatchDogDeneb2DiskSpaceLimitDelta_P" value="" />
+    <add key="ServerWatchDogDeneb2DiskSpaceMailSubject" value="" />
+    <add key="ServerWatchDogDeneb2DiskSpaceMailTo" value="" />
+    <add key="ServerWatchDogDeneb2StartRetryCount" value="" />
+
+
+  </appSettings>
+</configuration>
