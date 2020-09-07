@@ -14,8 +14,8 @@ Copy-Item $($PathProjectRoot + "\src\MainAppCEPS\bin\Debug\MainAppCEPSServer.exe
 Copy-Item $($PathProjectRoot + "\src\MainAppCEPS\bin\Debug\MainAppCEPSServer.pdb") -Destination $($PathProjectBuildResources + "\Libraries\AppServer") -Force
 Copy-Item $($PathProjectRoot + "\src\AppClientCEPS\bin\Debug\CEPSModules1.dll") -Destination $($PathProjectBuildResources + "\Libraries\AppClient") -Force
 Copy-Item $($PathProjectRoot + "\src\AppClientCEPS\bin\Debug\CEPSModules1.pdb") -Destination $($PathProjectBuildResources + "\Libraries\AppClient") -Force
-Copy-Item $($PathProjectRoot + "\src\MainAppCEPS\bin\Debug\AppClientCEPS.exe") -Destination $($PathProjectBuildResources + "\Libraries\AppClient") -Force
-Copy-Item $($PathProjectRoot + "\src\MainAppCEPS\bin\Debug\AppClientCEPS.pdb") -Destination $($PathProjectBuildResources + "\Libraries\AppClient") -Force
+Copy-Item $($PathProjectRoot + "\src\AppClientCEPS\bin\Debug\AppClientCEPS.exe") -Destination $($PathProjectBuildResources + "\Libraries\AppClient") -Force
+Copy-Item $($PathProjectRoot + "\src\AppClientCEPS\bin\Debug\AppClientCEPS.pdb") -Destination $($PathProjectBuildResources + "\Libraries\AppClient") -Force
 
 
 $PackageOutFolder = $("S:\TeamCity\output\builds\IndSoftCEPS_v" + $PackageVersion)
