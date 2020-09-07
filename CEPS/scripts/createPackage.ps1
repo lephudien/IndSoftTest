@@ -8,7 +8,7 @@ $PathProjectRoot = (get-item $PSScriptRoot).parent.FullName
 $PathProjectBuildResources = $PathProjectRoot + "\BuildResources"
 
 
-Copy-Item $($PathProjectRoot + "\src\MainAppCEPS\bin\Debug\CEPSModules1.dll") -Destination $($PathProjectBuildResources + "\Libraries\AppServer") - Force
+Copy-Item $($PathProjectRoot + "\src\MainAppCEPS\bin\Debug\CEPSModules1.dll") -Destination $($PathProjectBuildResources + "\Libraries\AppServer") -Force
 
 $PackageOutFolder = $("S:\TeamCity\output\builds\IndSoftCEPS_v" + $PackageVersion)
 Write-Host "PackageOutFolder: " $PackageOutFolder
