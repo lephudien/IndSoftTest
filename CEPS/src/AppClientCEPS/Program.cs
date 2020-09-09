@@ -21,6 +21,7 @@ namespace AppClientCEPS
       CEPSModules1.Class1 cls1 = new CEPSModules1.Class1();
       cls1.RunTests();
 
+      // Test git - master edit
       int i = 1;
       i += 29;
     }
