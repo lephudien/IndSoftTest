@@ -16,5 +16,13 @@ namespace MainAppCEPS
     {
       InitializeComponent();
     }
+
+    private void button1_Click(object sender, EventArgs e)
+    {
+      CEPSModules1.Class1 cls1 = new CEPSModules1.Class1();
+      var resp = cls1.GetResponse();
+
+      System.Windows.Forms.MessageBox.Show("AuthorizationStatus: " + resp.AuthorizationStatus);
+    }
   }
 }
